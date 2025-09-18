@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64411CE22E7C2160007EBB45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411CD82E7C2160007EBB45 /* AppDelegate.swift */; };
+		64411CE32E7C2160007EBB45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411CDF2E7C2160007EBB45 /* SceneDelegate.swift */; };
+		64411CE42E7C2160007EBB45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411CE02E7C2160007EBB45 /* ViewController.swift */; };
+		64411CE52E7C2160007EBB45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64411CD92E7C2160007EBB45 /* Assets.xcassets */; };
+		64411CE72E7C2160007EBB45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64411CDC2E7C2160007EBB45 /* LaunchScreen.storyboard */; };
+		64411CE82E7C2160007EBB45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64411CDE2E7C2160007EBB45 /* Main.storyboard */; };
+		64411D252E7C217F007EBB45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D242E7C217F007EBB45 /* ContentView.swift */; };
+		64411D272E7C218F007EBB45 /* StatisticsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D262E7C218F007EBB45 /* StatisticsViewModel.swift */; };
+		64411D292E7C21A1007EBB45 /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D282E7C21A1007EBB45 /* OnboardingViewModel.swift */; };
+		64411D2B2E7C21AC007EBB45 /* GarageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D2A2E7C21AC007EBB45 /* GarageViewModel.swift */; };
+		64411D2D2E7C21B8007EBB45 /* CalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D2C2E7C21B8007EBB45 /* CalculatorViewModel.swift */; };
+		64411D2F2E7C21CE007EBB45 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D2E2E7C21CE007EBB45 /* MainTabView.swift */; };
+		64411D312E7C21D9007EBB45 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D302E7C21D9007EBB45 /* StatisticsView.swift */; };
+		64411D332E7C21E4007EBB45 /* StatisticsHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D322E7C21E4007EBB45 /* StatisticsHistoryView.swift */; };
+		64411D352E7C21EE007EBB45 /* StatisticsChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D342E7C21EE007EBB45 /* StatisticsChartsView.swift */; };
+		64411D372E7C21F8007EBB45 /* AddFillUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D362E7C21F8007EBB45 /* AddFillUpView.swift */; };
+		64411D392E7C220A007EBB45 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D382E7C220A007EBB45 /* OnboardingView.swift */; };
+		64411D3B2E7C2211007EBB45 /* GarageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D3A2E7C2211007EBB45 /* GarageView.swift */; };
+		64411D3D2E7C221C007EBB45 /* AddVehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D3C2E7C221C007EBB45 /* AddVehicleView.swift */; };
+		64411D3F2E7C2226007EBB45 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D3E2E7C2226007EBB45 /* CalculatorView.swift */; };
+		64411D412E7C2238007EBB45 /* VehicleSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D402E7C2238007EBB45 /* VehicleSelectionView.swift */; };
+		64411D432E7C2245007EBB45 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D422E7C2245007EBB45 /* Constants.swift */; };
+		64411D452E7C2254007EBB45 /* DataPersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D442E7C2254007EBB45 /* DataPersistenceService.swift */; };
+		64411D472E7C2260007EBB45 /* ConsumptionCalculationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D462E7C2260007EBB45 /* ConsumptionCalculationService.swift */; };
+		64411D492E7C2271007EBB45 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411D482E7C2271007EBB45 /* Model.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64411CC02E7C2154007EBB45 /* CheckFuelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckFuelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64411CD82E7C2160007EBB45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		64411CD92E7C2160007EBB45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64411CDA2E7C2160007EBB45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64411CDB2E7C2160007EBB45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		64411CDD2E7C2160007EBB45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		64411CDF2E7C2160007EBB45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		64411CE02E7C2160007EBB45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64411D242E7C217F007EBB45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		64411D262E7C218F007EBB45 /* StatisticsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewModel.swift; sourceTree = "<group>"; };
+		64411D282E7C21A1007EBB45 /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		64411D2A2E7C21AC007EBB45 /* GarageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageViewModel.swift; sourceTree = "<group>"; };
+		64411D2C2E7C21B8007EBB45 /* CalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewModel.swift; sourceTree = "<group>"; };
+		64411D2E2E7C21CE007EBB45 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		64411D302E7C21D9007EBB45 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		64411D322E7C21E4007EBB45 /* StatisticsHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsHistoryView.swift; sourceTree = "<group>"; };
+		64411D342E7C21EE007EBB45 /* StatisticsChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsChartsView.swift; sourceTree = "<group>"; };
+		64411D362E7C21F8007EBB45 /* AddFillUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFillUpView.swift; sourceTree = "<group>"; };
+		64411D382E7C220A007EBB45 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		64411D3A2E7C2211007EBB45 /* GarageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GarageView.swift; sourceTree = "<group>"; };
+		64411D3C2E7C221C007EBB45 /* AddVehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddVehicleView.swift; sourceTree = "<group>"; };
+		64411D3E2E7C2226007EBB45 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		64411D402E7C2238007EBB45 /* VehicleSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleSelectionView.swift; sourceTree = "<group>"; };
+		64411D422E7C2245007EBB45 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		64411D442E7C2254007EBB45 /* DataPersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceService.swift; sourceTree = "<group>"; };
+		64411D462E7C2260007EBB45 /* ConsumptionCalculationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsumptionCalculationService.swift; sourceTree = "<group>"; };
+		64411D482E7C2271007EBB45 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64411CBD2E7C2154007EBB45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64411CB72E7C2154007EBB45 = {
+			isa = PBXGroup;
+			children = (
+				64411CE12E7C2160007EBB45 /* CheckFuelApp */,
+				64411CC12E7C2154007EBB45 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64411CC12E7C2154007EBB45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64411CC02E7C2154007EBB45 /* CheckFuelApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64411CE12E7C2160007EBB45 /* CheckFuelApp */ = {
+			isa = PBXGroup;
+			children = (
+				64411CEA2E7C216C007EBB45 /* Sui */,
+				64411CE92E7C2167007EBB45 /* App */,
+				64411CD92E7C2160007EBB45 /* Assets.xcassets */,
+				64411CDA2E7C2160007EBB45 /* Info.plist */,
+				64411CDC2E7C2160007EBB45 /* LaunchScreen.storyboard */,
+				64411CDE2E7C2160007EBB45 /* Main.storyboard */,
+			);
+			path = CheckFuelApp;
+			sourceTree = "<group>";
+		};
+		64411CE92E7C2167007EBB45 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				64411CD82E7C2160007EBB45 /* AppDelegate.swift */,
+				64411CDF2E7C2160007EBB45 /* SceneDelegate.swift */,
+				64411CE02E7C2160007EBB45 /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		64411CEA2E7C216C007EBB45 /* Sui */ = {
+			isa = PBXGroup;
+			children = (
+				64411D242E7C217F007EBB45 /* ContentView.swift */,
+				64411D262E7C218F007EBB45 /* StatisticsViewModel.swift */,
+				64411D282E7C21A1007EBB45 /* OnboardingViewModel.swift */,
+				64411D2A2E7C21AC007EBB45 /* GarageViewModel.swift */,
+				64411D2C2E7C21B8007EBB45 /* CalculatorViewModel.swift */,
+				64411D2E2E7C21CE007EBB45 /* MainTabView.swift */,
+				64411D302E7C21D9007EBB45 /* StatisticsView.swift */,
+				64411D322E7C21E4007EBB45 /* StatisticsHistoryView.swift */,
+				64411D342E7C21EE007EBB45 /* StatisticsChartsView.swift */,
+				64411D362E7C21F8007EBB45 /* AddFillUpView.swift */,
+				64411D382E7C220A007EBB45 /* OnboardingView.swift */,
+				64411D3A2E7C2211007EBB45 /* GarageView.swift */,
+				64411D3C2E7C221C007EBB45 /* AddVehicleView.swift */,
+				64411D3E2E7C2226007EBB45 /* CalculatorView.swift */,
+				64411D402E7C2238007EBB45 /* VehicleSelectionView.swift */,
+				64411D422E7C2245007EBB45 /* Constants.swift */,
+				64411D442E7C2254007EBB45 /* DataPersistenceService.swift */,
+				64411D462E7C2260007EBB45 /* ConsumptionCalculationService.swift */,
+				64411D482E7C2271007EBB45 /* Model.swift */,
+			);
+			path = Sui;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64411CBF2E7C2154007EBB45 /* CheckFuelApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64411CD32E7C2155007EBB45 /* Build configuration list for PBXNativeTarget "CheckFuelApp" */;
+			buildPhases = (
+				64411CBC2E7C2154007EBB45 /* Sources */,
+				64411CBD2E7C2154007EBB45 /* Frameworks */,
+				64411CBE2E7C2154007EBB45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CheckFuelApp;
+			packageProductDependencies = (
+			);
+			productName = CheckFuelApp;
+			productReference = 64411CC02E7C2154007EBB45 /* CheckFuelApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64411CB82E7C2154007EBB45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					64411CBF2E7C2154007EBB45 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 64411CBB2E7C2154007EBB45 /* Build configuration list for PBXProject "CheckFuelApp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 64411CB72E7C2154007EBB45;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 64411CC12E7C2154007EBB45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64411CBF2E7C2154007EBB45 /* CheckFuelApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64411CBE2E7C2154007EBB45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64411CE52E7C2160007EBB45 /* Assets.xcassets in Resources */,
+				64411CE72E7C2160007EBB45 /* LaunchScreen.storyboard in Resources */,
+				64411CE82E7C2160007EBB45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64411CBC2E7C2154007EBB45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64411D3F2E7C2226007EBB45 /* CalculatorView.swift in Sources */,
+				64411D432E7C2245007EBB45 /* Constants.swift in Sources */,
+				64411D352E7C21EE007EBB45 /* StatisticsChartsView.swift in Sources */,
+				64411D332E7C21E4007EBB45 /* StatisticsHistoryView.swift in Sources */,
+				64411CE22E7C2160007EBB45 /* AppDelegate.swift in Sources */,
+				64411D472E7C2260007EBB45 /* ConsumptionCalculationService.swift in Sources */,
+				64411D412E7C2238007EBB45 /* VehicleSelectionView.swift in Sources */,
+				64411D3D2E7C221C007EBB45 /* AddVehicleView.swift in Sources */,
+				64411D452E7C2254007EBB45 /* DataPersistenceService.swift in Sources */,
+				64411D372E7C21F8007EBB45 /* AddFillUpView.swift in Sources */,
+				64411D312E7C21D9007EBB45 /* StatisticsView.swift in Sources */,
+				64411D292E7C21A1007EBB45 /* OnboardingViewModel.swift in Sources */,
+				64411D2F2E7C21CE007EBB45 /* MainTabView.swift in Sources */,
+				64411D2D2E7C21B8007EBB45 /* CalculatorViewModel.swift in Sources */,
+				64411CE32E7C2160007EBB45 /* SceneDelegate.swift in Sources */,
+				64411D252E7C217F007EBB45 /* ContentView.swift in Sources */,
+				64411D3B2E7C2211007EBB45 /* GarageView.swift in Sources */,
+				64411D272E7C218F007EBB45 /* StatisticsViewModel.swift in Sources */,
+				64411D2B2E7C21AC007EBB45 /* GarageViewModel.swift in Sources */,
+				64411D492E7C2271007EBB45 /* Model.swift in Sources */,
+				64411CE42E7C2160007EBB45 /* ViewController.swift in Sources */,
+				64411D392E7C220A007EBB45 /* OnboardingView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64411CDC2E7C2160007EBB45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64411CDB2E7C2160007EBB45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		64411CDE2E7C2160007EBB45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64411CDD2E7C2160007EBB45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64411CD42E7C2155007EBB45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CheckFuelApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AutoTrip Tracker";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CheckFuelApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		64411CD52E7C2155007EBB45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CheckFuelApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "AutoTrip Tracker";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CheckFuelApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		64411CD62E7C2155007EBB45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		64411CD72E7C2155007EBB45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64411CBB2E7C2154007EBB45 /* Build configuration list for PBXProject "CheckFuelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64411CD62E7C2155007EBB45 /* Debug */,
+				64411CD72E7C2155007EBB45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64411CD32E7C2155007EBB45 /* Build configuration list for PBXNativeTarget "CheckFuelApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64411CD42E7C2155007EBB45 /* Debug */,
+				64411CD52E7C2155007EBB45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64411CB82E7C2154007EBB45 /* Project object */;
+}
