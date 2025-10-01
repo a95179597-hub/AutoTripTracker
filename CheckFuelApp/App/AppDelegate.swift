@@ -38,8 +38,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         print("✅ Firebase configured")
         
         
-        AppsFlyerLib.shared().appsFlyerDevKey = "mpNYjAVqWiS5DMw4sBXsRG"
-        AppsFlyerLib.shared().appleAppID     = "6670198961"
+        AppsFlyerLib.shared().appsFlyerDevKey = "P8Cmc5f5JjkNjQ3haoGbWS"
+        AppsFlyerLib.shared().appleAppID     = "6752708567"
         AppsFlyerLib.shared().delegate       = self
        // AppsFlyerLib.shared().isDebug        = true // пока тестируешь
         

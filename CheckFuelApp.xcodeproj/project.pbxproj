@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		643B2D492E8D421300390A2A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 643B2D482E8D421300390A2A /* GoogleService-Info.plist */; };
 		64411CE22E7C2160007EBB45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411CD82E7C2160007EBB45 /* AppDelegate.swift */; };
 		64411CE32E7C2160007EBB45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411CDF2E7C2160007EBB45 /* SceneDelegate.swift */; };
 		64411CE42E7C2160007EBB45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64411CE02E7C2160007EBB45 /* ViewController.swift */; };
@@ -49,10 +50,10 @@
 		648F6FA92E843A46004594FE /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648F6FA82E843A46004594FE /* RedirectHandler.swift */; };
 		648F6FAD2E843A68004594FE /* DeviceIDProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648F6FAC2E843A68004594FE /* DeviceIDProvider.swift */; };
 		648F6FAF2E843ACF004594FE /* MyConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648F6FAE2E843ACF004594FE /* MyConstants.swift */; };
-		648F6FB12E843C1B004594FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 648F6FB02E843C1B004594FE /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		643B2D482E8D421300390A2A /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		64411CC02E7C2154007EBB45 /* CheckFuelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckFuelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64411CD82E7C2160007EBB45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64411CD92E7C2160007EBB45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -92,7 +93,6 @@
 		648F6FA82E843A46004594FE /* RedirectHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedirectHandler.swift; sourceTree = "<group>"; };
 		648F6FAC2E843A68004594FE /* DeviceIDProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceIDProvider.swift; sourceTree = "<group>"; };
 		648F6FAE2E843ACF004594FE /* MyConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyConstants.swift; sourceTree = "<group>"; };
-		648F6FB02E843C1B004594FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		648F6FB22E843DBE004594FE /* CheckFuelApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CheckFuelApp.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,8 +131,8 @@
 		64411CE12E7C2160007EBB45 /* CheckFuelApp */ = {
 			isa = PBXGroup;
 			children = (
+				643B2D482E8D421300390A2A /* GoogleService-Info.plist */,
 				648F6FB22E843DBE004594FE /* CheckFuelApp.entitlements */,
-				648F6FB02E843C1B004594FE /* GoogleService-Info.plist */,
 				648F6F952E8439B0004594FE /* ServiceLayer */,
 				64411CEA2E7C216C007EBB45 /* Sui */,
 				64411CE92E7C2167007EBB45 /* App */,
@@ -270,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				64411CE52E7C2160007EBB45 /* Assets.xcassets in Resources */,
-				648F6FB12E843C1B004594FE /* GoogleService-Info.plist in Resources */,
+				643B2D492E8D421300390A2A /* GoogleService-Info.plist in Resources */,
 				64411CE72E7C2160007EBB45 /* LaunchScreen.storyboard in Resources */,
 				64411CE82E7C2160007EBB45 /* Main.storyboard in Resources */,
 			);
@@ -367,7 +367,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.CheckFuelApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -405,7 +405,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.CheckFuelApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

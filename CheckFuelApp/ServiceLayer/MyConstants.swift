@@ -1,7 +1,7 @@
 import Foundation
 
 enum MyConstants {
-    static let realtimeDBURL = "https://igserviceapp-default-rtdb.firebaseio.com/"
+    static let realtimeDBURL = "https://joklertrip-default-rtdb.firebaseio.com/"
     static let webUserAgent =
       "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Mobile/15E148 Safari/604.1"
 
